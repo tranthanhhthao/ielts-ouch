@@ -46,7 +46,7 @@ const essays = [{
         link: '/reading-for-children',
         essay: ['Many people would rather children spending time doing other things than reading. They consider reading not an active pastime and not very helpful developing life skills at a young age. I disagree—I think reading is essential to growth.', 'First, reading requires and strengthens children\’s ability to concentrate and self-discipline—it is not an passive thing to do. While reading, they need to constantly reflect on what they have known and read. After reading, they often arrive at an intellectual discussion with the writers while coming to senses with their understanding. In short, reading is a form of communicating attentively. ', 'Secondly, reading exercises the brain and helps children improve language skills. It allows them to comprehend the meaning of language, literacy, and social skills. It also gets them ready for academic life. In other words, the benefits of reading are many and are for children as well. Therefore, it is right to encourage children to read in their free time. ', 'To conclude, it\’s actually great to allow children to read while letting them set up their own schedules. Remember to pick a reading list that suits their reading-level so they can feel engaging and have a chance to challenge themselves to level up. ']
     }, {
-        title: 'fresh water is a limited resource',
+        title: 'fresh water',
         prompt: 'Some people think that the government should strictly control the supply of fresh water, as it is a limited resource, while others think it should not be regulated.',
         question: 'Discuss both sides and give your opinion.',
         link: '/fresh-water',
