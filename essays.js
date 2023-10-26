@@ -16,7 +16,7 @@ const essays = [{
         title: 'ads target kids',
         prompt: 'In some countries, there has been an increase in the number of advertisements which try to persuade children to buy snacks, toys, and other goods. Parents often claim that these ads are unfair.',
         question: 'Discuss both sides and give your own opinion.',
-        link: 'https://tranthanhhthao.github.io/ietls-ouch-ads-target-kids/',
+        link: 'https://tranthanhhthao.github.io/ielts-ouch-ads-target-kids/',
         essay: ['In many places, children have become the target of advertising. They are persuaded into buying snacks, toys, and stuffs. Some think the ads are fair-played. Some criticize the business. ', 'One way to look at advertising is that it is inevitably and strategically omnipresent to everyone in this consumer world, children included. As long as the ads are age-appropriate, advertisers don’t need to feel bad for targeting children. Look at the kids being informed, entertained, and given choices. Look at K-pop idols and their endorsements. Everyone seems to win. ', 'Another way to look at advertising is to see concerns of parents. Our children are being manipulated and exploited for profit. They are too young to make well-thought-out decisions. They are too easy to give ads their full attention without being defensive or aware of commercial coercion. Therefore, it is fundamentally unfair and unjust to expose impressionable minds to ruthless advertisement.', 'In conclusion, consumerism leaves no one alone. Personally, I think this is a sad fact that we have to live with in this modern world. I hope we have more ethical advertisers. ']
     }, 
     {
