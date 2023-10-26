@@ -13,13 +13,25 @@ body {
     overflow-x: hidden;
 }
 
+/* head */
+.head {
+    position: relative;
+    display: none;
+    margin: auto 0;
+    padding: 30px 20px;
+    background-color: var(--orange);
+    border: 2px solid black;
+}
+
+
+/* table */
 .table {
     display: block;
     position: relative;
     margin: 0;
     width: 100vw;
     height: 100vh;
-    background-color: black;
+    background-color: white;
 }
 
 .table .row {
@@ -82,7 +94,7 @@ body {
     margin-top: 30px;
 }
 
-.cell-title p {
+.tag {
     font-family: 'Work Sans', sans-serif;
     font-size: 20px;
 
@@ -165,16 +177,90 @@ body {
     margin: 0;
     
     margin-left: 20px;
-    margin-top: 30px;
+    margin-top: 10%;
 }
 
 .essay p {
     font-family: 'Work Sans', sans-serif;
     font-size: 15px;
-    width: 240px;
+    /* width: 240px; */
 
     margin-top: 10px;
     margin-left: 20px;
     margin-right: 20px;
+
+}
+
+@media only screen and (max-width: 1180px) {
+    .col-1, .col-5 {
+        display: none;
+    }
+
+    .col {
+        flex: calc(33%);
+        max-width: 33.33%;
+    }
+}
+
+@media only screen and (max-width: 790px) {
+    .head {
+        display: block;
+    }
+
+    .table .row {
+        /* flex-direction: column; */
+        height: fit-content;
+        border: 0;
+    }
+    
+    .col-1, .col-5 {
+        display: none;
+    }
+
+    .col {
+        position: relative;
+        display: block;
+        flex: 100%;
+        max-width: 100%;
+        /* border-bottom: 2px solid black; */
+        border-top: 0;
+    }
+
+    .cell-title {
+        display: none;
+    }
+
+    .shuffle {
+        position: relative;
+        display: block;
+    }
+
+    .shuffle span {
+        top: 0;
+    }
+
+    .essay h3 {
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (min-width: 1800px) {
+    .col-1 {
+        flex: 22%;
+        max-width: 22%;
+    }
+    
+    .col-2, .col-3, .col-4 {
+        flex: calc(17% - 4px);
+        max-width: 17%;
+    
+    }
+    
+    .col-5 {
+        flex: 27%;
+        max-width: 27%;
+    
+        border-right: 0;
+    }
 
 }
