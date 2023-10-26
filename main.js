@@ -44,7 +44,7 @@ function shuffle () {
 
         box.innerHTML = ''
 
-        box.href = '#';
+        box.href = essays[index].link;
         box.appendChild(document.createElement('h3')).innerHTML = essays[index].title;
         box.appendChild(document.createElement('p')).innerHTML = essays[index].prompt;
         box.appendChild(document.createElement('p')).innerHTML = essays[index].question;
