@@ -67,7 +67,7 @@ const essays = [{
         title: 'city life',
         prompt: 'A rise in the standard of living in a country often only seems to benefit cities rather than rural areas.', 
         question: 'What problems can this cause? How might these problems be reduced?', 
-        link: 'https://tranthanhhthao.github.io/ietls-ouch-city-life',
+        link: 'https://tranthanhhthao.github.io/ielts-ouch-city-life',
         essay: ['As our living standard gets higher, unlike rural areas, cities indicate the promise of fulfillment where modern needs and demands are commonly voiced and heard. ', 'One problem occurs when large numbers of people move to cities is overcrowding. There is not enough resources for everyone. Shortages of housing and employment lead people to slums and poverty. The solution is to promote economic development related to building new residences and job creation. So in other words, city life is about better houses and better jobs. ', 'Another problem followed is environmental degradation. Firstly, concentrated energy use brings about air pollution. Secondly, trash landfills becoming full very quickly every day cause land pollution. Thirdly, pollution contaminates water supplies. Ultimately, congested cities kill the ecosystem and individuals\’ health. Therefore, going green is the solution, which calls for awareness and healthy lifestyles.', 'Urbanization is happening everywhere at great speed. Despite many problems, city life remains incredibly attractive. It is where people robustly seek higher lives because it\’s possible. ']
     }, {
         title: 'patriotism',
